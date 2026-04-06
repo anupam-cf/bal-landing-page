@@ -523,9 +523,30 @@ img {
   text-align: center;
 }
 
-.credibility-text {
-  max-width: 640px;
+.credibility-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 48px;
+  align-items: center;
+  max-width: 800px;
   margin: 0 auto 48px;
+}
+
+.credibility-photo-wrapper {
+  position: relative;
+}
+
+.credibility-photo {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  position: relative;
+  z-index: 1;
+  box-shadow: var(--shadow-xl);
+  border: 3px solid var(--border);
+}
+
+.credibility-text {
+  text-align: left;
 }
 
 .credibility-intro {
@@ -1463,6 +1484,21 @@ img {
   .cases-grid .case-card:last-child,
   .mistakes-grid .mistake-card:last-child {
     grid-column: span 1;
+  }
+
+  .credibility-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .credibility-photo-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .credibility-text {
+    text-align: center;
   }
 
   .about-content {
