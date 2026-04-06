@@ -549,6 +549,10 @@ img {
   text-align: left;
 }
 
+.credibility-text .section-title {
+  text-align: left;
+}
+
 .credibility-intro {
   font-size: 1.25rem;
   font-weight: 500;
@@ -1498,6 +1502,10 @@ img {
   }
 
   .credibility-text {
+    text-align: center;
+  }
+
+  .credibility-text .section-title {
     text-align: center;
   }
 
