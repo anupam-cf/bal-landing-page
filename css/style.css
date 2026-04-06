@@ -525,8 +525,8 @@ img {
 
 .credibility-layout {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 48px;
+  grid-template-columns: 160px 1fr;
+  gap: 40px;
   align-items: center;
   max-width: 800px;
   margin: 0 auto 48px;
@@ -538,11 +538,13 @@ img {
 
 .credibility-photo {
   width: 100%;
-  border-radius: var(--radius-xl);
+  border-radius: 50%;
   position: relative;
   z-index: 1;
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-lg);
   border: 3px solid var(--border);
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .credibility-text {
@@ -1497,7 +1499,7 @@ img {
   }
 
   .credibility-photo-wrapper {
-    max-width: 200px;
+    max-width: 140px;
     margin: 0 auto;
   }
 
