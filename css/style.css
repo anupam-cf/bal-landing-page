@@ -331,8 +331,13 @@ img {
   50% { box-shadow: 0 4px 40px rgba(79, 70, 229, 0.5); }
 }
 
-.center-cta {
+.center-cta,
+.section-content,
+.credibility-content {
   text-align: center;
+}
+
+.center-cta {
   margin-top: 48px;
 }
 
